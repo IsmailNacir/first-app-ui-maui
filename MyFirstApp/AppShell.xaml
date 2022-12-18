@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MyFirstApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:MyFirstApp.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <!--<FlyoutItem>
+        <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" Route="Login" />
+    </FlyoutItem>-->
+
+    <TabBar Route="Main">
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate views:MainPage}"
+        Route="MainPage" />
+
+        <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate views:LoginPage}"
+        Route="LoginPage"/>
+
+        <ShellContent
+        Title="Catalog"
+        ContentTemplate="{DataTemplate views:CatalogPage}"
+        Route="CatalogPage"/>
+    </TabBar>
+
+</Shell>

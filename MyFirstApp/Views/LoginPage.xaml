@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstApp.Views.LoginPage"
+             xmlns:styles="clr-namespace:MyFirstApp.Resources.Styles"
+             Title="Prendre rendez-vous"
+             BackgroundColor="{StaticResource Gray1000}">
+
+    <!--<Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto" 
+          
+          >-->
+
+
+
+        <!--<Button Grid.Row="2"
+                Grid.Column="1"
+                Text="Creneau 1"
+                StyleClass="BookingButton"/>-->
+    
+        <Button 
+                Text="Creneau 1"
+                StyleClass="BookingButton"/>
+
+
+    <!--</Grid>-->
+
+
+</ContentPage>

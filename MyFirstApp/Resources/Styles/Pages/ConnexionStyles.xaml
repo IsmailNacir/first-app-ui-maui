@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formiris.Mobile.App.Resources.Styles.Pages.ConnexionStyles">
+
+    <Style TargetType="StackLayout" x:Key="MainLayout">
+    </Style>
+    <Style TargetType="StackLayout" x:Key="ElementsLayout">
+        <Setter Property="Margin" Value="25, 0"/>
+        <Setter Property="Padding" Value="0, 25"/>
+        <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+    </Style>
+
+    <Style TargetType="Image" x:Key="IconFormiris">
+        <Setter Property="HorizontalOptions" Value="Center"/>
+    </Style>
+    <Style TargetType="Image" x:Key="IconVague">
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+    </Style>
+
+    <Style TargetType="Label" Class="WhiteSubTitleLabel">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource White}}" />
+        <Setter Property="FontFamily" Value="WeissenhofGrotesk-Regular" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="MaximumWidthRequest" Value="300"/>
+        <Setter Property="Padding" Value="0, 0, 0, 0"/>
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+    </Style>
+
+
+</ResourceDictionary>
